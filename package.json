@@ -1,5 +1,5 @@
 {
-  "name": "@tradeinsight/options",
+  "name": "@tradeinsight-info/options",
   "version": "0.1.0",
   "description": "Black-Scholes pricing, Greeks, implied volatility, and options strategy payoff utilities",
   "type": "module",
