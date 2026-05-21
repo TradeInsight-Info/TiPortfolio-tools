@@ -1,0 +1,35 @@
+{
+  "name": "@tradeinsight/options",
+  "version": "0.1.0",
+  "description": "Black-Scholes pricing, Greeks, implied volatility, and options strategy payoff utilities",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsup",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsup": "^8.3.0",
+    "typescript": "^5.9.0",
+    "vitest": "^3.0.0"
+  },
+  "keywords": ["options", "black-scholes", "implied-volatility", "greeks", "finance"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TradeInsight-Info/TiPortfolio-tools"
+  }
+}
